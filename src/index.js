@@ -14,7 +14,7 @@ app.use(express.json());
 // Importar rutas
 const devOpsRoutes = require('./routes/devops.routes');
 
-// Rutas
+// Rutas para los diferentes contenedores
 app.use('/DevOps', devOpsRoutes);
 app.use('/FinOps', devOpsRoutes)
 
